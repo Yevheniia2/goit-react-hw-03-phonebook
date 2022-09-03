@@ -1,7 +1,6 @@
 import { PropTypes } from "prop-types";
 import { ContactListLi } from "./ContactListItem.styled";
-import { FormParagraph } from "components/ContactForm/ContactForm.styled";
-import { FormButton } from "components/ContactForm/ContactForm.styled";
+import { FormParagraph, FormButton } from "components/ContactForm/ContactForm.styled";
 
 export function ContactListItem({ id, name, number, handleDeleteContact }) {
     return (
